@@ -1,0 +1,99 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "儿童乐园会员",
+        "navigationStyle": "default"
+      }
+    },
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "登录",
+        "navigationStyle": "default"
+      }
+    },
+    {
+      "path": "pages/recharge/recharge",
+      "style": {
+        "navigationBarTitleText": "充值中心",
+        "navigationStyle": "default"
+      }
+    },
+    {
+      "path": "pages/qrcode/qrcode",
+      "style": {
+        "navigationBarTitleText": "我的二维码",
+        "navigationStyle": "default"
+      }
+    },
+    {
+      "path": "pages/records/records",
+      "style": {
+        "navigationBarTitleText": "消费记录",
+        "navigationStyle": "default"
+      }
+    },
+    {
+      "path": "pages/admin/scan/scan",
+      "style": {
+        "navigationBarTitleText": "扫码扣币",
+        "navigationStyle": "default"
+      }
+    },
+    {
+      "path": "pages/admin/projects/projects",
+      "style": {
+        "navigationBarTitleText": "项目管理",
+        "navigationStyle": "default"
+      }
+    },
+    {
+      "path": "pages/admin/profile/profile",
+      "style": {
+        "navigationBarTitleText": "管理员中心",
+        "navigationStyle": "default"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "儿童乐园会员",
+    "navigationBarBackgroundColor": "#409EFF",
+    "backgroundColor": "#F5F7FA",
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#409EFF",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/icons/home.png",
+        "selectedIconPath": "static/icons/home-active.png"
+      },
+      {
+        "pagePath": "pages/qrcode/qrcode",
+        "text": "二维码",
+        "iconPath": "static/icons/qrcode.png",
+        "selectedIconPath": "static/icons/qrcode-active.png"
+      },
+      {
+        "pagePath": "pages/records/records",
+        "text": "记录",
+        "iconPath": "static/icons/record.png",
+        "selectedIconPath": "static/icons/record-active.png"
+      },
+      {
+        "pagePath": "pages/admin/profile/profile",
+        "text": "我的",
+        "iconPath": "static/icons/profile.png",
+        "selectedIconPath": "static/icons/profile-active.png"
+      }
+    ]
+  }
+}

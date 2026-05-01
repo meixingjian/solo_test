@@ -1,0 +1,28 @@
+{
+  "name": "children-park-miniprogram",
+  "version": "1.0.0",
+  "description": "儿童乐园会员微信小程序",
+  "main": "main.js",
+  "scripts": {
+    "dev:mp-weixin": "uni -p mp-weixin",
+    "build:mp-weixin": "uni build -p mp-weixin"
+  },
+  "dependencies": {
+    "@dcloudio/uni-app": "2.0.2-3090920240507001",
+    "@dcloudio/uni-app-plus": "2.0.2-3090920240507001",
+    "@dcloudio/uni-components": "2.0.2-3090920240507001",
+    "@dcloudio/uni-h5": "2.0.2-3090920240507001",
+    "@dcloudio/uni-mp-weixin": "2.0.2-3090920240507001",
+    "vue": "^3.4.21",
+    "vue-i18n": "^9.2.2"
+  },
+  "devDependencies": {
+    "@dcloudio/types": "^3.4.8",
+    "@dcloudio/uni-automator": "2.0.2-3090920240507001",
+    "@dcloudio/uni-cli-shared": "2.0.2-3090920240507001",
+    "@dcloudio/uni-stacktracey": "2.0.2-3090920240507001",
+    "@dcloudio/vite-plugin-uni": "2.0.2-3090920240507001",
+    "@vue/runtime-core": "^3.4.21",
+    "vite": "5.2.8"
+  }
+}
